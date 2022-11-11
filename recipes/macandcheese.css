@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(/images/background1.jpg);
+    font-size: 22px;
+    overflow-x: hidden;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(77, 38, 0, 60%);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 20px;
+    color: rgb(230, 230, 230);
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+h1{
+    border-style: dashed;
+    padding: 5px;
+    margin: 10px;
+}
